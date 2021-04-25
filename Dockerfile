@@ -1,3 +1,3 @@
 FROM jenkins/jenkins
-USER jenkins
+USER root
 COPY . /usr/share/jenkins/ref/
